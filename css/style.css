@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    margin: 0;
+    padding: 0;
+}
+.header {
+}
+
+.header__logo {
+    display: block;
+    text-align: center;
+    margin: 88px 764px 85px 772px;
+    width: 384px;
+    height: 127px;
+}
+
+.menu_list{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.menu_item{
+    display: inline-block;
+
+}
+.menu_link{
+    text-decoration: none;
+}
