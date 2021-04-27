@@ -5,37 +5,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 
 <body>
     <header class="header">
-        <img class="header__logo" src="img/header.png"/>
+        <div class="logo header_logo">
+            <a class="logo__link" href="#">
+                <img class="logo__link-img" src="images/logo.svg" alt="logo" />
+            </a>
+        </div>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">О нас</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">Дома</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">Квартиры</a>
+                </li>
+                <li class="menu__list-item">
+                    <a class="menu__list-link" href="#">Контакты</a>
+                </li>
+            </ul>
+        </nav>
     </header>
 
-    <nav class="menu">
-<ul class="menu_list">
-    <li class="menu_item">
-        <a class="menu_link">О нас</a>
-    </li>
-    <li class="menu_item">
-        <a class="menu_link">Дома</a>
-    </li>
-    <li class="menu_item">
-        <a class="menu_link">Квартиры</a>
-    </li>
-    <li class="menu_item">
-        <a class="menu_link">Контакты</a>
-    </li>
-</ul>
-    </nav>
 
-    <section class="main">
 
-    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
-
 
 </html>
